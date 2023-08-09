@@ -1,5 +1,5 @@
 const User = require("../../models/users");
-const path = require("node:path");
+const path = require("path");
 const Jimp = require("jimp");
 
 const uploadAvatar = async (req, res) => {

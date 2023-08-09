@@ -1,7 +1,7 @@
 const express = require("express");
 const logger = require("morgan");
 const cors = require("cors");
-const path = require("node:path");
+const path = require("path");
 // const { auth } = require("./middlewares");
 
 const authRouter = require("./routes/api/auth");

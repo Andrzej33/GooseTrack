@@ -1,6 +1,6 @@
 const express = require("express");
 const multer = require("multer");
-const path = require("node:path");
+const path = require("path");
 const auth = require("../../middlewares/auth");
 const storage = multer.diskStorage({
   destination: function (_, __, cb) {
